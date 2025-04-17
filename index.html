@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #007acc;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .syllabus-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+        .syllabus-table th, .syllabus-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .syllabus-table th {
+            background-color: #007acc;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloud Computing Course</h1>
+        <p>Learn the essentials of cloud computing and AWS through practical, hands-on projects.</p>
+    </header>
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#outcomes">Learning Outcomes</a>
+    </nav>
+    <section id="overview">
+        <h2>Course Overview</h2>
+        <p>This class provides a comprehensive overview of cloud computing, covering foundational concepts and advanced topics, along with corresponding AWS hands-on projects. AWS will be used as the primary cloud provider for practical examples. Key AWS services in computing, networking, storage, big data, AI, serverless computing, and containerization will be introduced. The course includes a hands-on project for each topic. This course aims to equip students with both theoretical foundations and practical skills needed for the cloud computing industry.</p>
+        <p>Hands-on projects are teacher-led, students are encouraged to follow along, but it is not mandatory for them to complete the projects independently</p>
+            <h2>Contact</h2>
+            <p>For more information, please email <a href="mailto:yourname@example.com">mytemp@oskarcode.com</a> or reach out to me in <a href="https://www.linkedin.com/in/cloudflareoskar/">LinkedIn</a>.</p>
+    </section>
+    <section id="syllabus">
+        <h2>Syllabus</h2>
+        <table class="syllabus-table">
+            <thead>
+                <tr>
+                    <th>Class Number</th>
+                    <th>Main Topic</th>
+                    <th>Content Details</th>
+                    <th>On-Hands Project</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Cloud Computing Basics</td>
+                    <td>Cloud Status, Cloud Definition, Cloud Characteristics, Cloud Service/Delivery Model</td>
+                    <td>Set up AWS Account</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>AWS Section</td>
+                    <td>AWS Account, IAM, Global Infrastructure, AWS Pricing Model, AWS CLI, AWS API/SDK</td>
+                    <td>Set up IAM user, policy; Install AWS CLI and interact with AWS S3 with API</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cloud Enabling Technology</td>
+                    <td>Networking Technology (e.g., OSI Model), Virtualization, Web Technology, Multi-Tenant Technology, Containerization</td>
+                    <td>Deploy a simple web application into AWS EC2</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>AWS Section</td>
+                    <td>AWS VPC, Network ACL/Security Group, AWS Shared Responsibility, AWS Benefits</td>
+                    <td>Set up an AWS customized VPC; Set up Security Group/Network ACL</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Cloud Architecture</td>
+                    <td>Scaling, High Availability, and Fault Tolerance</td>
+                    <td>Create AWS Security Group and Networking ACL</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>AWS Section</td>
+                    <td>Load Balancing, Auto Scaling</td>
+                    <td>Experiment with SG and ACL rules to observe server connection behavior; Create a VPC with various elements</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Storage, Database, Data Analytics</td>
+                    <td>Different types of storage, databases, and data analytics tools</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>AWS Section</td>
+                    <td>AWS EBS/Instance Storage, S3, RDS, DynamoDB, CloudFormation</td>
+                    <td>Connect to AWS RDS, write and retrieve data; Use CloudFormation templates to deploy services</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>DNS, CDN Technology and Corresponding AWS Services</td>
+                    <td>Basic concepts of DNS and CDN; AWS services such as Route 53 and CloudFront</td>
+                    <td>Create public hosted zones in AWS; Set up a static website in S3 and accelerate with CloudFront</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Containers and Serverless Computing</td>
+                    <td>Containers and related AWS services (e.g., ECS/ECR)</td>
+                    <td>Containerize a Django web application; Deploy the container using AWS ECS</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>AWS Lambda, API Gateway, Data Engineering Basics</td>
+                    <td>Lambda, API Gateway</td>
+                    <td>Create a simple Lambda function and expose it via API Gateway</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>AWS Big Data Services</td>
+                    <td>Redshift, EMR, Glue, Athena</td>
+                    <td>Analyze ALB logs stored in S3 using Athena</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Cloud Security and Security on AWS</td>
+                    <td>Cybersecurity fundamentals; AWS KMS, CloudHSM, ACM, WAF, Shield, Inspector, GuardDuty</td>
+                    <td>Create rules in WAF; Explore AWS GuardDuty insights</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>AI in the Cloud</td>
+                    <td>AI concepts; AWS Rekognition, Transcribe, Translate, Comprehend, Lex</td>
+                    <td>Build an app utilizing AWS Rekognition and Textract</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Cloud Architecture as a General and AWS Architecture</td>
+                    <td>Six Pillars of AWS Architectural Best Practices Framework</td>
+                    <td>Create a simple three-tier architecture</td>
+                </tr>
+                <tr>
+                    <td>Midterm</td>
+                    <td>Exam</td>
+                    <td>Single-choice and multiple-response questions</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Final</td>
+                    <td>Exam</td>
+                    <td>Single-choice and multiple-response questions</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Discussion 1</td>
+                    <td>Case Study</td>
+                    <td>Cloud-related case study or building a simple application using multiple AWS services</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Discussion 2</td>
+                    <td>Case Study</td>
+                    <td>Cloud-related case study or building a simple application using multiple AWS services</td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="outcomes">
+        <h2>Learning Outcomes</h2>
+        <ul>
+            <li>Understand cloud computing fundamentals.</li>
+            <li>Master enabling technologies like hyperscale computing and networking.</li>
+            <li>Gain insights into big data storage and analytics.</li>
+            <li>Explore AI in the cloud, serverless architectures, and containerization.</li>
+            <li>Formulate strategies for secure and compliant cloud adoption.</li>
+            <li>Develop hands-on expertise with AWS core services.</li>
+            <li>Most of the students who took this course are able to pass the AWS Cloud Practitioner Essentials, and some of them passed the Solutions Architect Associate.
+            </li>
+        </ul>
+    </section>
+   
+</body>
+</html>
